@@ -8,7 +8,7 @@ interface HeroProps {
 export function Hero({ onGetStarted }: HeroProps) {
   return (
     <div className="relative min-h-[calc(100vh-4rem)] bg-gradient-to-br from-indigo-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-indigo-900">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1557683316-973673baf926?auto=format&fit=crop&w=1920')] opacity-10 bg-cover bg-center" />
+      <div className="absolute inset-0 bg-[url('https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg?t=st=1733875544~exp=1733879144~hmac=afaba5fb4d5ae7b0c3905ffdf40f623b17078244b2d16ef150757c92310776ba&w=826')]  bg-cover bg-center" />
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white dark:to-gray-900" />
       
       <div className="relative container mx-auto px-4 py-32 flex flex-col items-center text-center">

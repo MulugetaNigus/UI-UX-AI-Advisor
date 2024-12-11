@@ -7,19 +7,19 @@ export function Navbar() {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <nav className="sticky top-0 z-50 bg-white dark:bg-gray-900 shadow-sm">
+    <nav className="sticky top-0 p-4 z-50 bg-white dark:bg-gray-900 shadow-sm">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2">
             <Sparkles className="w-8 h-8 text-indigo-600" />
-            <span className="text-xl font-bold text-gray-900 dark:text-white">UI/UX AI Advisor</span>
+            <span className="text-2xl font-bold text-gray-900 dark:text-white">UI/UX AI Advisor</span>
           </Link>
-          
-          <div className="flex items-center space-x-8">
+
+          <div className="flex items-center space-x-8 font-normal">
             <Link to="/" className="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
               Home
             </Link>
-            <Link to="/upload" className="text-gray-600 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400">
+            <Link to="/upload" className="text-white dark:text-gray-300 hover:border-indigo-500 hover:bg-indigo-500 border-2 border-indigo-600 rounded px-4 py-2 bg-indigo-600 dark:hover:text-indigo-400">
               Upload
             </Link>
             <button
